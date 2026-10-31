@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #6E0C19;
+  --color-brand-hover: #8C0A20;
+  --color-text-on-brand: #FBF8F3;
+  --color-background: #FBF8F3;
+  --color-text-primary: #281113;
+  --color-text-secondary: #6B5558;
+  --color-border: #E8E0D3;
+
+  --font-sans: "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+  --font-logo: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background font-sans text-text-primary;
+  }
+}
